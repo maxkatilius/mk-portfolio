@@ -6,14 +6,14 @@ const Footer = () => {
     <footer 
       className="
         flex items-center justify-center gap-[0.5rem]
-        p-[1.6em] 
-        text-[0.8rem] sm:text-[1.2rem] lg:text-[1.4rem] tracking-wide text-center dark:text-white
+        p-[1.6em] 2xl:p-[1.3em]
+        text-[0.8rem] sm:text-[1.2rem] lg:text-[1.4rem] 2xl:text-[1.5rem] tracking-wide text-center dark:text-white
       dark:bg-gray-900"
     >
       <p>
         max.katilius@gmail.com
       </p>
-      <div className="flex justify-center items-center gap-[0.3em] sm:gap-[0.3em] text-[1.3rem] sm:text-[1.8rem] lg:text-[2rem]">
+      <div className="flex justify-center items-center 2xl:items-baseline gap-[0.3em] sm:gap-[0.3em] text-[1.3rem] sm:text-[1.8rem] lg:text-[2rem] 2xl:text-[2.7rem]">
         <a 
           className="hidden sm:inline-block"
           href="https://www.linkedin.com/in/max-katilius/">
@@ -31,7 +31,7 @@ const Footer = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="h-5 w-5 sm:h-8 sm:w-8"
+              className="h-5 w-5 sm:h-8 sm:w-8 2xl:h-10 2xl:w-10"
           >
               <path
                   strokeLinecap="round"

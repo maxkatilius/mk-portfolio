@@ -18,7 +18,7 @@ const Projects = () => {
         ">
             <div className="flex flex-col items-center gap-4 xl:gap-24">
                 <div className="flex flex-col gap-7 mb-2">
-                    <h2 className="mb-2 mx-auto lg:mt-2">
+                    <h2 className="mb-2 2xl:mb-4 mx-auto lg:mt-2">
                         <span className="border-b-8 border-orange-500 pb-2 text-center text-2xl md:text-[2rem] xl:text-[2.65rem] font-semibold tracking-wide">
                             PROJECTS
                         </span>
@@ -36,7 +36,7 @@ const Projects = () => {
                             href="https://palatable.netlify.app/"
                             rel="noreferrer"
                             target="_blank"
-                            className="relative group inline-block transition-colors duration-300"
+                            className="relative group inline-block font-['M_PLUS_Rounded_1c'] font-[400] tracking-widest transition-colors duration-300"
                         >
                             <span className="relative z-10 bg-[linear-gradient(to_right,_#70c1b3,_#2D5A9A,_#b39ddb,_#B553A2)] bg-clip-text hover:text-transparent transition-all duration-500 ease-in-out">
                                 palatable
@@ -80,12 +80,12 @@ const Projects = () => {
                             </div>
                         </a>
                         <p className="md:pt-2 lg:pt-4 xl:pt-0">
-                            <span className="font-semibold tracking-wide">palatable </span> 
+                            <span className="font-semibold font-['M_PLUS_Rounded_1c'] tracking-widest">palatable </span> 
                             is an interactive color palette generator designed for designers 
-                            and developers who want creative control over their color schemes. 
-                            With support for multiple color modes, customizable generation logic, 
-                            and persistent local storage, palatable offers a visually engaging 
-                            and technically rich experience.
+                            and developers who want creative control over their colour schemes. 
+                            With support for multiple colour modes, customizable generation logic, 
+                            and persistent local storage, <span className="font-['M_PLUS_Rounded_1c'] tracking-widest">palatable </span>
+                            offers a visually engaging and technically rich experience.
                         </p>
                         <p className="mt-1">
                             <span className="tracking-wide font-semibold">Key Features:</span>
@@ -161,9 +161,9 @@ const Projects = () => {
                                 href="https://clockwise-mk.netlify.app/"
                                 rel="noreferrer"
                                 target="_blank"
-                                className="relative group inline-block tracking-wide hover:text-blue-800 transition-all duration-500"
+                                className="relative group inline-block font-[Lato] font-[300] tracking-wide hover:text-blue-800 transition-all duration-500"
                             >
-                                CLOCKWISE
+                                CLOCK<span className="font-bold">WISE</span>
                                 <span className="absolute -bottom-1 left-0 h-1 w-0 bg-blue-800 transition-all duration-600 ease-in-out group-hover:w-full"></span>
                             </a>
                         </h3>
@@ -203,13 +203,14 @@ const Projects = () => {
                             </div>
                         </a>
                         <p className="md:pt-2 lg:pt-4">
-                            <span className="font-semibold tracking-wide">CLOCKWISE </span> 
+                            <span className="font-[Lato] tracking-wide">CLOCK<span className="font-bold">WISE </span></span> 
                             is a modern time zone converter designed to help users easily 
                             view and compare times across multiple global locations. 
                             Whether you're coordinating international business meetings 
                             or simply trying to stay connected with loved ones abroad, 
-                            Clockwise provides a streamlined solution for managing time 
-                            across time zones — anytime, anywhere.
+                            <span className="font-[Lato] tracking-wide">CLOCK<span className="font-bold">WISE </span></span>
+                            provides a streamlined solution for managing time across time 
+                            zones — anytime, anywhere.
                         </p>
                         <p className="mt-1">
                             <span className="tracking-wide font-semibold">Key Features:</span>
@@ -280,7 +281,7 @@ const Projects = () => {
                                 href="https://crocodile-mk.netlify.app/"
                                 rel="noreferrer"
                                 target="_blank"
-                                className="relative group inline-block tracking-wide hover:text-[#0B6E4F] transition-all duration-500"
+                                className="relative group inline-block font-[Quicksand] tracking-widest hover:text-[#0B6E4F] transition-all duration-500"
                             >
                                 CROCODILE
                                 <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-600 ease-in-out group-hover:w-full"></span>
@@ -322,7 +323,7 @@ const Projects = () => {
                             </div>
                         </a>
                         <p className="md:pt-2 lg:pt-4">
-                            <span className="font-semibold tracking-wide">CROCODILE </span>  
+                            <span className="font-semibold font-[Quicksand] tracking-widest">CROCODILE </span>  
                             is the official mock website for Australia's newest and most 
                             exciting card game. This fully responsive site showcases the 
                             game's origin story, offers an interactive "How to Play" section 
@@ -330,7 +331,7 @@ const Projects = () => {
                             through a modern front-end and a robust back-end architecture.
                         </p>
                         <p>
-                            <span className="tracking-wide">CROCODILE</span> is a{" "}
+                            <span className="font-[Quicksand] tracking-widest">CROCODILE</span> is a{" "}
                             <span className="font-bold text-orange-500">
                                 full-stack project
                             </span>{" "}
