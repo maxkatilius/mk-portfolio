@@ -10,7 +10,7 @@ const Down = ({ color }: Props) => {
             stroke="currentColor"
             strokeWidth="2"
             viewBox="0 0 24 24"
-            className={`h-6 w-6 sm:h-8 sm:w-8 md:h-9 md:w-9 lg:h-10 lg:w-10 xl:h-14 xl:w-14 cursor-pointer animate-bounce ${color}`}
+            className={`h-6 w-6 sm:h-8 sm:w-8 md:h-9 md:w-9 lg:h-10 lg:w-10 xl:h-12 xl:w-12 2xl:h-16 2xl:w-16 cursor-pointer animate-bounce ${color}`}
         >
             <path
                 strokeLinecap="round"

@@ -7,8 +7,8 @@ const Footer = () => {
       className="
         flex items-center justify-center gap-[0.5rem]
         p-[1.6em] 2xl:p-[1.3em]
-        text-[0.8rem] sm:text-[1.2rem] lg:text-[1.4rem] 2xl:text-[1.5rem] tracking-wide text-center dark:text-white
-      dark:bg-gray-900"
+        text-[0.8rem] sm:text-[1.2rem] lg:text-[1.4rem] 2xl:text-[1.5rem] tracking-wide text-center text-white
+      bg-gray-900"
     >
       <p>
         max.katilius@gmail.com

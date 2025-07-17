@@ -1,9 +1,8 @@
 import Eye from "../assets/svgFunctions/Eye"
 import GitHub from "../assets/svgFunctions/GitHub"
 import Palatable from "../assets/palatable.png"
-import Clockwise from "../assets/clockwise.png"
 import Crocodile from "../assets/crocodile.png"
-
+import Clockwise from "../assets/clockwise.png"
 
 const Projects = () => {
     
@@ -16,10 +15,10 @@ const Projects = () => {
                 bg-gradient-to-b from-gray-200 to-gray-100 text-gray-800 
                 scroll-mt-[5rem]
         ">
-            <div className="flex flex-col items-center gap-4 xl:gap-24">
-                <div className="flex flex-col gap-7 mb-2">
-                    <h2 className="mb-2 2xl:mb-4 mx-auto lg:mt-2">
-                        <span className="border-b-8 border-orange-500 pb-2 text-center text-2xl md:text-[2rem] xl:text-[2.65rem] font-semibold tracking-wide">
+            <div className="flex flex-col items-center gap-4 xl:gap-16">
+                <div className="flex flex-col gap-7">
+                    <h2 className="mb-2 xl:mb-6 mx-auto lg:mt-2 xl:mt-5">
+                        <span className="border-b-8 border-orange-500 pb-2 text-center text-2xl md:text-[2rem] xl:text-[2.4rem] font-semibold tracking-wide">
                             PROJECTS
                         </span>
                     </h2>
@@ -30,7 +29,7 @@ const Projects = () => {
                     </p>
                 </div>
                 <div className="flex items-start justify-center gap-10">
-                    <div className="flex flex-col gap-4 xl:gap-10 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
+                    <div className="flex flex-col gap-4 xl:gap-8 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
                         <h3 className="text-center font-bold text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem]">
                         <a 
                             href="https://palatable.netlify.app/"
@@ -38,10 +37,10 @@ const Projects = () => {
                             target="_blank"
                             className="relative group inline-block font-['M_PLUS_Rounded_1c'] font-[400] tracking-widest transition-colors duration-300"
                         >
-                            <span className="relative z-10 bg-[linear-gradient(to_right,_#00C8D8,_#ED5FC2,_#EFAD72,_#44EAC9)] bg-clip-text hover:text-transparent transition-all duration-500 ease-in-out">
+                            <span className="relative z-10 bg-[linear-gradient(to_right,_#257DD0,_#ED5FC2,_#EFAD72,_#22C3A3)] bg-clip-text hover:text-transparent transition-all duration-500 ease-in-out">
                                 palatable
                             </span>
-                            <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[linear-gradient(to_right,_#00C8D8,_#ED5FC2,_#EFAD72,_#44EAC9)] transition-all duration-700 ease-in-out group-hover:w-full"></span>
+                            <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[linear-gradient(to_right,_#257DD0,_#ED5FC2,_#EFAD72,_#22C3A3)] transition-all duration-700 ease-in-out group-hover:w-full"></span>
                         </a>
                         </h3>
                         <div className="group overflow-hidden rounded border-4 xl:hidden">
@@ -53,7 +52,7 @@ const Projects = () => {
                                 <img
                                     src={Palatable}
                                     alt=""
-                                    className="transition-all duration-1000 ease-in-out group-hover:scale-125"
+                                    className="transition-all duration-1000 ease-in-out group-hover:scale-110"
                                 />
                             </a>
                         </div>
@@ -63,7 +62,7 @@ const Projects = () => {
                             target="_blank"
                             className="xl:hidden"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <GitHub className="h-6 w-6" />
                                 <p>GITHUB REPO</p>
                             </div>
@@ -74,7 +73,7 @@ const Projects = () => {
                             target="_blank"
                             className="xl:hidden"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <Eye className="h-6 w-6" />
                                 <p>LIVE DEMO</p>
                             </div>
@@ -87,7 +86,7 @@ const Projects = () => {
                             and persistent local storage, <span className="font-['M_PLUS_Rounded_1c'] tracking-widest">palatable </span>
                             offers a visually engaging and technically rich experience.
                         </p>
-                        <p className="mt-1">
+                        <p className="mt-1 xl:-mb-3">
                             <span className="tracking-wide font-semibold">Key Features:</span>
                         </p>
                         <ul className="flex flex-col gap-4">
@@ -115,7 +114,7 @@ const Projects = () => {
                         </ul>
                         <hr className="mt-2 lg:mt-4 border-4 border-orange-500 text-orange-500 xl:hidden" />
                     </div>
-                    <div className="hidden w-[45%] xl:flex flex-col items-center gap-4 m-auto">
+                    <div className="hidden w-[45%] xl:flex flex-col items-center gap-5 m-auto">
                         <div className="group overflow-hidden rounded border-4 shadow-xl">
                             <a
                                 href="https://palatable.netlify.app/"
@@ -125,7 +124,7 @@ const Projects = () => {
                                 <img
                                     src={Palatable}
                                     alt=""
-                                    className="transition-all duration-1000 ease-in-out group-hover:scale-125"
+                                    className="transition-all duration-1000 ease-in-out group-hover:scale-110"
                                 />
                             </a>
                         </div>
@@ -135,7 +134,7 @@ const Projects = () => {
                             target="_blank"
                             className="w-72"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 mt-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <GitHub className="h-6 w-6" />
                                 <p>GITHUB REPO</p>
                             </div>
@@ -146,16 +145,16 @@ const Projects = () => {
                             target="_blank"
                             className="w-72"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <Eye className="h-6 w-6" />
                                 <p>LIVE DEMO</p>
                             </div>
                         </a>
                     </div>
                 </div>
-                <hr className="hidden xl:block w-full border-4 border-orange-500" />
+                <hr className="hidden xl:block w-full border-4 border-orange-500 -mb-4" />
                 <div className="flex items-start justify-center gap-10">
-                    <div className="flex flex-col gap-4 xl:w-1/2 xl:gap-10 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
+                    <div className="flex flex-col gap-4 xl:w-1/2 xl:gap-8 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
                         <h3 className="text-center font-bold text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] py-1">
                         <a 
                                 href="https://clockwise-mk.netlify.app/"
@@ -178,7 +177,7 @@ const Projects = () => {
                                 <img
                                     src={Clockwise}
                                     alt=""
-                                    className="transition-all duration-1000 ease-in-out group-hover:scale-125"
+                                    className="transition-all duration-1000 ease-in-out group-hover:scale-110"
                                 />
                             </a>
                         </div>
@@ -188,7 +187,7 @@ const Projects = () => {
                             target="_blank"
                             className="xl:hidden"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <GitHub className="h-6 w-6" />
                                 <p>GITHUB REPO</p>
                             </div>
@@ -199,7 +198,7 @@ const Projects = () => {
                             target="_blank"
                             className="xl:hidden"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <Eye className="h-6 w-6" />
                                 <p>LIVE DEMO</p>
                             </div>
@@ -214,7 +213,7 @@ const Projects = () => {
                             provides a streamlined solution for managing time across time 
                             zones — anytime, anywhere.
                         </p>
-                        <p className="mt-1">
+                        <p className="mt-1 xl:-mb-3">
                             <span className="tracking-wide font-semibold">Key Features:</span>
                         </p>
                         <ul className="flex flex-col gap-4">
@@ -237,7 +236,7 @@ const Projects = () => {
                         </ul>
                         <hr className="mt-2 lg:mt-4 border-4 border-orange-500 text-orange-500 xl:hidden" />
                     </div>
-                    <div className="hidden w-[45%] xl:flex flex-col items-center gap-4 m-auto">
+                    <div className="hidden w-[45%] xl:flex flex-col items-center gap-5 m-auto">
                         <div className="group overflow-hidden rounded border-4 shadow-xl">
                             <a
                                 href="https://clockwise-mk.netlify.app/"
@@ -247,7 +246,7 @@ const Projects = () => {
                                 <img
                                     src={Clockwise}
                                     alt=""
-                                    className="transition-all duration-1000 ease-in-out group-hover:scale-125"
+                                    className="transition-all duration-1000 ease-in-out group-hover:scale-110"
                                 />
                             </a>
                         </div>
@@ -257,7 +256,7 @@ const Projects = () => {
                             target="_blank"
                             className="w-72"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 mt-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <GitHub className="h-6 w-6" />
                                 <p>GITHUB REPO</p>
                             </div>
@@ -268,16 +267,16 @@ const Projects = () => {
                             target="_blank"
                             className="w-72"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <Eye className="h-6 w-6" />
                                 <p>LIVE DEMO</p>
                             </div>
                         </a>
                     </div>
                 </div>
-                <hr className="hidden xl:block w-full border-4 border-orange-500" />
+                <hr className="hidden xl:block w-full border-4 border-orange-500 -mb-4" />
                 <div className="mb-10 flex items-start justify-center gap-10">
-                    <div className="flex flex-col gap-4 xl:gap-10 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
+                    <div className="flex flex-col gap-4 xl:gap--8 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
                         <h3 className="text-center font-[500] text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] tracking-wide py-1">
                             <a 
                                 href="https://crocodile-mk.netlify.app/"
@@ -287,6 +286,7 @@ const Projects = () => {
                             >
                                 CROCODILE
                                 <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-600 ease-in-out group-hover:w-full"></span>
+                                <span className="absolute -top-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-600 ease-in-out group-hover:w-full"></span>
                             </a>
                         </h3>
                         <div className="group overflow-hidden rounded border-4 xl:hidden">
@@ -298,7 +298,7 @@ const Projects = () => {
                                 <img
                                     src={Crocodile}
                                     alt=""
-                                    className="transition-all duration-1000 ease-in-out group-hover:scale-125"
+                                    className="transition-all duration-1000 ease-in-out group-hover:scale-110"
                                 />
                             </a>
                         </div>
@@ -308,7 +308,7 @@ const Projects = () => {
                             target="_blank"
                             className="xl:hidden"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <GitHub className="h-6 w-6" />
                                 <p>GITHUB REPO</p>
                             </div>
@@ -319,7 +319,7 @@ const Projects = () => {
                             target="_blank"
                             className="xl:hidden"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <Eye className="h-6 w-6" />
                                 <p>LIVE DEMO</p>
                             </div>
@@ -332,7 +332,7 @@ const Projects = () => {
                             with live animations, and simulates a seamless e-commerce experience 
                             through a modern front-end and a robust back-end architecture.
                         </p>
-                        <p>
+                        <p className="xl:-mb-3">
                             <span className="font-[Quicksand] font-[500] tracking-widest">CROCODILE</span> is a{" "}
                             <span className="font-bold text-orange-500">
                                 full-stack project
@@ -366,7 +366,7 @@ const Projects = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="hidden w-[45%] xl:flex flex-col items-center gap-4 m-auto">
+                    <div className="hidden w-[45%] xl:flex flex-col items-center gap-5 m-auto">
                         <div className="group overflow-hidden rounded border-4 shadow-xl">
                             <a
                                 href="https://crocodile-mk.netlify.app/"
@@ -376,7 +376,7 @@ const Projects = () => {
                                 <img
                                     src={Crocodile}
                                     alt=""
-                                    className="transition-all duration-1000 ease-in-out group-hover:scale-125"
+                                    className="transition-all duration-1000 ease-in-out group-hover:scale-110"
                                 />
                             </a>
                         </div>
@@ -386,7 +386,7 @@ const Projects = () => {
                             target="_blank"
                             className="w-72"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 mt-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <GitHub className="h-6 w-6" />
                                 <p>GITHUB REPO</p>
                             </div>
@@ -397,7 +397,7 @@ const Projects = () => {
                             target="_blank"
                             className="w-72"
                         >
-                            <div className="flex items-center justify-center gap-2 px-2 py-1 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
                                 <Eye className="h-6 w-6" />
                                 <p>LIVE DEMO</p>
                             </div>

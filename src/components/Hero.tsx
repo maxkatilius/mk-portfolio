@@ -6,7 +6,7 @@ const Hero = () => {
         <section
             id="hero"
             className="
-                min-h-[calc(100vh-5rem)] sm:min-h-full
+                min-h-[calc(100vh-5rem)]
                 sm:relative flex flex-col sm:flex-row sm:justify-between items-center sm:items-stretch xl:gap-8
                 pt-8 pb-4 px-10 sm:pb-14 md:px-14 xl:px-20
         ">
