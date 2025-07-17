@@ -38,10 +38,10 @@ const Projects = () => {
                             target="_blank"
                             className="relative group inline-block font-['M_PLUS_Rounded_1c'] font-[400] tracking-widest transition-colors duration-300"
                         >
-                            <span className="relative z-10 bg-[linear-gradient(to_right,_#70c1b3,_#2D5A9A,_#b39ddb,_#B553A2)] bg-clip-text hover:text-transparent transition-all duration-500 ease-in-out">
+                            <span className="relative z-10 bg-[linear-gradient(to_right,_#00C8D8,_#ED5FC2,_#EFAD72,_#44EAC9)] bg-clip-text hover:text-transparent transition-all duration-500 ease-in-out">
                                 palatable
                             </span>
-                            <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[linear-gradient(to_right,_#70c1b3,_#2D5A9A,_#b39ddb,_#B553A2)] transition-all duration-700 ease-in-out group-hover:w-full"></span>
+                            <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[linear-gradient(to_right,_#00C8D8,_#ED5FC2,_#EFAD72,_#44EAC9)] transition-all duration-700 ease-in-out group-hover:w-full"></span>
                         </a>
                         </h3>
                         <div className="group overflow-hidden rounded border-4 xl:hidden">
@@ -161,10 +161,12 @@ const Projects = () => {
                                 href="https://clockwise-mk.netlify.app/"
                                 rel="noreferrer"
                                 target="_blank"
-                                className="relative group inline-block font-[Lato] font-[300] tracking-wide hover:text-blue-800 transition-all duration-500"
+                                className="relative group inline-block font-[Lato] font-[300] tracking-wide transition-all duration-500"
                             >
-                                CLOCK<span className="font-bold">WISE</span>
-                                <span className="absolute -bottom-1 left-0 h-1 w-0 bg-blue-800 transition-all duration-600 ease-in-out group-hover:w-full"></span>
+                                <span className="transition-all duration-500 group-hover:bg-gradient-to-r group-hover:from-sky-600 group-hover:to-blue-500 group-hover:bg-clip-text group-hover:text-transparent">
+                                    CLOCK<span className="font-bold">WISE</span>
+                                </span>
+                                <span className="absolute -bottom-1 left-0 h-1 w-0 bg-linear-to-r from-sky-200 to-blue-400 transition-all duration-600 ease-in-out group-hover:w-full"></span>
                             </a>
                         </h3>
                         <div className="group overflow-hidden rounded border-4 xl:hidden">
@@ -208,7 +210,7 @@ const Projects = () => {
                             view and compare times across multiple global locations. 
                             Whether you're coordinating international business meetings 
                             or simply trying to stay connected with loved ones abroad, 
-                            <span className="font-[Lato] tracking-wide">CLOCK<span className="font-bold">WISE </span></span>
+                            <span className="font-[Lato] tracking-wide"> CLOCK<span className="font-bold">WISE </span></span>
                             provides a streamlined solution for managing time across time 
                             zones — anytime, anywhere.
                         </p>
@@ -276,7 +278,7 @@ const Projects = () => {
                 <hr className="hidden xl:block w-full border-4 border-orange-500" />
                 <div className="mb-10 flex items-start justify-center gap-10">
                     <div className="flex flex-col gap-4 xl:gap-10 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
-                        <h3 className="text-center font-bold text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] tracking-wide py-1">
+                        <h3 className="text-center font-[500] text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] tracking-wide py-1">
                             <a 
                                 href="https://crocodile-mk.netlify.app/"
                                 rel="noreferrer"
@@ -323,7 +325,7 @@ const Projects = () => {
                             </div>
                         </a>
                         <p className="md:pt-2 lg:pt-4">
-                            <span className="font-semibold font-[Quicksand] tracking-widest">CROCODILE </span>  
+                            <span className="font-[500] font-[Quicksand] tracking-widest">CROCODILE </span>  
                             is the official mock website for Australia's newest and most 
                             exciting card game. This fully responsive site showcases the 
                             game's origin story, offers an interactive "How to Play" section 
@@ -331,7 +333,7 @@ const Projects = () => {
                             through a modern front-end and a robust back-end architecture.
                         </p>
                         <p>
-                            <span className="font-[Quicksand] tracking-widest">CROCODILE</span> is a{" "}
+                            <span className="font-[Quicksand] font-[500] tracking-widest">CROCODILE</span> is a{" "}
                             <span className="font-bold text-orange-500">
                                 full-stack project
                             </span>{" "}

@@ -6,7 +6,7 @@ const Header = () => {
           <ul className="w-full flex items-center justify-evenly sm:justify-center sm:gap-28 md:gap-12 2xl:gap-16 font-semibold text-gray-800">
             <a
               className="hidden md:block text-2xl xl:text-[1.7rem] 2xl:text-[2rem] mr-auto xl:ml-[1%]"
-              href=""
+              href="#"
               >
               <li>MAX KATILIUS</li>
             </a>
