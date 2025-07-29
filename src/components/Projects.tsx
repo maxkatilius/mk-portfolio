@@ -354,7 +354,7 @@ const Projects = () => {
                                         Node.js with Express Server
                                     </li>
                                     <li>
-                                        PostGre SQL Database
+                                        PostgreSQL Database
                                     </li>
                                 </ul>
                             </li>
@@ -368,7 +368,7 @@ const Projects = () => {
                                         Server - Render
                                     </li>
                                     <li>
-                                        Databse - Supabase
+                                        Database - Supabase
                                     </li>
                                 </ul>
                             </li>
