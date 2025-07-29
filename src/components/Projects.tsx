@@ -291,7 +291,7 @@ const Projects = () => {
                         </h3>
                         <div className="group overflow-hidden rounded border-4 xl:hidden">
                             <a
-                                href="https://crocodile-mk.netlify.app/"
+                                href="https://crocodile-mk.vercel.app/"
                                 rel="noreferrer"
                                 target="_blank"
                             >
@@ -314,7 +314,7 @@ const Projects = () => {
                             </div>
                         </a>
                         <a
-                            href="https://crocodile-mk.netlify.app/"
+                            href="https://crocodile-mk.vercel.app/"
                             rel="noreferrer"
                             target="_blank"
                             className="xl:hidden"
@@ -328,8 +328,7 @@ const Projects = () => {
                             <span className="font-[500] font-[Quicksand] tracking-widest">CROCODILE </span>  
                             is the official mock website for Australia's newest and most 
                             exciting card game. This fully responsive site showcases the 
-                            game's origin story, offers an interactive "How to Play" section 
-                            with live animations, and simulates a seamless e-commerce experience 
+                            game's origin story, and simulates a seamless e-commerce experience 
                             through a modern front-end and a robust back-end architecture.
                         </p>
                         <p className="xl:-mb-3">
@@ -341,35 +340,64 @@ const Projects = () => {
                         </p>
                         <ul className="flex flex-col gap-4">
                             <li>
-                                <span className="font-bold">- Frontend:</span>{" "}
-                                React and Tailwind CSS
+                                <span className="font-bold">Frontend</span>{" "}
+                                <ul>
+                                    <li>
+                                        React and Sass
+                                    </li>
+                                </ul>
                             </li>
                             <li>
-                                <span className="font-bold">- Backend:</span>{" "}
-                                ...
+                                <span className="font-bold">Backend</span>{" "}
+                                <ul>
+                                    <li>
+                                        Node.js with Express Server
+                                    </li>
+                                    <li>
+                                        PostGre SQL Database
+                                    </li>
+                                </ul>
                             </li>
                             <li>
-                                <span className="font-bold">- Deployment:</span>{" "}
-                                ...
+                                <span className="font-bold">Deployment</span>{" "}
+                                <ul>
+                                    <li>
+                                        Frontend - Vercel
+                                    </li>
+                                    <li>
+                                        Server - Render
+                                    </li>
+                                    <li>
+                                        Databse - Supabase
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <span className="font-bold">
-                                    - State Management:
-                                </span>{" "}
-                                ...
+                                    State Management
+                                </span>
+                                <ul>
+                                    <li>
+                                        React useContext hook
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <span className="font-bold">
-                                    - Mock Product Data:
-                                </span>{" "}
-                                REST API.
+                                    Mock Product Data
+                                </span>
+                                <ul>
+                                    <li>
+                                        REST API
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
                     <div className="hidden w-[45%] xl:flex flex-col items-center gap-5 m-auto">
                         <div className="group overflow-hidden rounded border-4 shadow-xl">
                             <a
-                                href="https://crocodile-mk.netlify.app/"
+                                href="https://crocodile-mk.vercel.app/"
                                 rel="noreferrer"
                                 target="_blank"
                             >
@@ -392,7 +420,7 @@ const Projects = () => {
                             </div>
                         </a>
                         <a
-                            href="https://crocodile-mk.netlify.app/"
+                            href="https://crocodile-mk.vercel.app/"
                             rel="noreferrer"
                             target="_blank"
                             className="w-72"

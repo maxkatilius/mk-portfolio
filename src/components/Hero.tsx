@@ -17,7 +17,7 @@ const Hero = () => {
             ">
                 <h1 className="text-center sm:self-start text-2xl lg:text-4xl 2xl:text-[3rem] text-gray-800">
                     <span className="border-b-8 border-orange-500 pb-2 font-semibold tracking-wide">
-                        Hi, I'm Max 👋
+                        Hi, I'm MaxKat 👋
                     </span>
                 </h1>
                 <div>
