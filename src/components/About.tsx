@@ -28,16 +28,17 @@ const About = () => {
                     a deep interest in technology.
                 </p>
                 <p>
-                    I’m now pursuing a Master's in Information Technology with
-                     a specialization in Artificial Intelligence, combining my 
+                    I’m now studying a Master's in Information Technology with
+                     a specialisation in Artificial Intelligence, combining my 
                      self-directed learning with formal study to strengthen 
                      my technical foundation.
                 </p>
                 <p>
                     <span className="text-orange-500">My focus lies in frontend 
-                    development,</span> {" "} particularly in building responsive, 
-                    accessible web apps and polished user interfaces with modern 
-                    tools like <span className="text-orange-500">React</span>.
+                    development,</span> {" "} where I enjoy creating responsive, 
+                    accessible web applications that deliver a smooth user
+                    experience and feature polished, intuitive interfaces built 
+                    with <span className="text-orange-500">React</span>.
                 </p>
                 <p>
                     Equipped with a solid foundation in various technologies,

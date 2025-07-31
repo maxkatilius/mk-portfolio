@@ -32,7 +32,7 @@ const Projects = () => {
                     <div className="flex flex-col gap-4 xl:gap--8 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
                         <h3 className="text-center font-[500] text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] tracking-wide py-1">
                             <a 
-                                href="https://crocodile-mk.netlify.app/"
+                                href="https://crocodile-mk.vercel.app/shop"
                                 rel="noreferrer"
                                 target="_blank"
                                 className="relative group inline-block font-[Quicksand] tracking-widest hover:text-[#0B6E4F] transition-all duration-500"
@@ -44,7 +44,7 @@ const Projects = () => {
                         </h3>
                         <div className="group overflow-hidden rounded border-4 xl:hidden">
                             <a
-                                href="https://crocodile-mk.netlify.app/"
+                                href="https://crocodile-mk.vercel.app/shop"
                                 rel="noreferrer"
                                 target="_blank"
                             >
@@ -67,7 +67,7 @@ const Projects = () => {
                             </div>
                         </a>
                         <a
-                            href="https://crocodile-mk.netlify.app/"
+                            href="https://crocodile-mk.vercel.app/shop"
                             rel="noreferrer"
                             target="_blank"
                             className="xl:hidden"
@@ -147,7 +147,7 @@ const Projects = () => {
                     <div className="hidden w-[45%] xl:flex flex-col items-center gap-5 m-auto">
                         <div className="group overflow-hidden rounded border-4 shadow-xl">
                             <a
-                                href="https://crocodile-mk.netlify.app/"
+                                href="https://crocodile-mk.vercel.app/shop"
                                 rel="noreferrer"
                                 target="_blank"
                             >
@@ -170,7 +170,7 @@ const Projects = () => {
                             </div>
                         </a>
                         <a
-                            href="https://crocodile-mk.netlify.app/"
+                            href="https://crocodile-mk.vercel.app/shop"
                             rel="noreferrer"
                             target="_blank"
                             className="w-72"
