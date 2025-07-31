@@ -28,6 +28,161 @@ const Projects = () => {
                         engaging solutions.
                     </p>
                 </div>
+                <div className="mb-10 flex items-start justify-center gap-10">
+                    <div className="flex flex-col gap-4 xl:gap--8 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
+                        <h3 className="text-center font-[500] text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] tracking-wide py-1">
+                            <a 
+                                href="https://crocodile-mk.netlify.app/"
+                                rel="noreferrer"
+                                target="_blank"
+                                className="relative group inline-block font-[Quicksand] tracking-widest hover:text-[#0B6E4F] transition-all duration-500"
+                            >
+                                CROCODILE
+                                <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-600 ease-in-out group-hover:w-full"></span>
+                                <span className="absolute -top-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-600 ease-in-out group-hover:w-full"></span>
+                            </a>
+                        </h3>
+                        <div className="group overflow-hidden rounded border-4 xl:hidden">
+                            <a
+                                href="https://crocodile-mk.netlify.app/"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <img
+                                    src={Crocodile}
+                                    alt=""
+                                    className="transition-all duration-1000 ease-in-out group-hover:scale-110"
+                                />
+                            </a>
+                        </div>
+                        <a
+                            href="https://github.com/maxkatilius/croc"
+                            rel="noreferrer"
+                            target="_blank"
+                            className="xl:hidden"
+                        >
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                                <GitHub className="h-6 w-6" />
+                                <p>GITHUB REPO</p>
+                            </div>
+                        </a>
+                        <a
+                            href="https://crocodile-mk.netlify.app/"
+                            rel="noreferrer"
+                            target="_blank"
+                            className="xl:hidden"
+                        >
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                                <Eye className="h-6 w-6" />
+                                <p>LIVE DEMO</p>
+                            </div>
+                        </a>
+                        <p className="md:pt-2 lg:pt-4">
+                            <span className="font-[500] font-[Quicksand] tracking-widest">CROCODILE </span>  
+                            is the official mock website for Australia's newest and most 
+                            exciting card game. This fully responsive site offers a user-friendly 
+                            interface that highlights the game’s key features, origin story, 
+                            rules and gameplay, while providing a seamless browsing experience.
+                            Built with a modern frontend and robust backend architecture, 
+                            it simulates an e-commerce platform showcasing product details 
+                            and facilitates intuitive navigation for visitors.
+                        </p>
+                        <p className="">
+                            <span className="font-[Quicksand] font-[500] tracking-widest">CROCODILE</span> is a{" "}
+                            <span className="font-bold text-orange-500">
+                                full-stack project
+                            </span>{" "}
+                            utilising the following technologies:
+                        </p>
+                        <div className="flex flex-wrap gap-4">
+                            <ul className="flex flex-col gap-4 w-[45%]">
+                                <li>
+                                    <span className="font-bold">Frontend</span>{" "}
+                                    <ul>
+                                        <li>
+                                            React and Sass
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span className="font-bold">Backend</span>{" "}
+                                    <ul>
+                                        <li>
+                                            Node.js with Express Server
+                                        </li>
+                                        <li>
+                                            PostgreSQL Database
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul className="flex flex-col gap-4 w-[50%]">
+                                <li>
+                                    <span className="font-bold">Deployment</span>{" "}
+                                    <ul>
+                                        <li>
+                                            Frontend: Netlify
+                                        </li>
+                                        <li>
+                                            Server: Render
+                                        </li>
+                                        <li>
+                                            Database: Supabase
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span className="font-bold">
+                                        Mock Product Data
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            REST API
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>   
+                        </div>
+                    </div>
+                    <div className="hidden w-[45%] xl:flex flex-col items-center gap-5 m-auto">
+                        <div className="group overflow-hidden rounded border-4 shadow-xl">
+                            <a
+                                href="https://crocodile-mk.netlify.app/"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <img
+                                    src={Crocodile}
+                                    alt=""
+                                    className="transition-all duration-1000 ease-in-out group-hover:scale-110"
+                                />
+                            </a>
+                        </div>
+                        <a
+                            href="https://github.com/maxkatilius/croc"
+                            rel="noreferrer"
+                            target="_blank"
+                            className="w-72"
+                        >
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 mt-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                                <GitHub className="h-6 w-6" />
+                                <p>GITHUB REPO</p>
+                            </div>
+                        </a>
+                        <a
+                            href="https://crocodile-mk.netlify.app/"
+                            rel="noreferrer"
+                            target="_blank"
+                            className="w-72"
+                        >
+                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
+                                <Eye className="h-6 w-6" />
+                                <p>LIVE DEMO</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <hr className="hidden xl:block w-full border-4 border-orange-500 -mb-4" />
                 <div className="flex items-start justify-center gap-10">
                     <div className="flex flex-col gap-4 xl:gap-8 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
                         <h3 className="text-center font-bold text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem]">
@@ -263,164 +418,6 @@ const Projects = () => {
                         </a>
                         <a
                             href="https://clockwise-mk.netlify.app/"
-                            rel="noreferrer"
-                            target="_blank"
-                            className="w-72"
-                        >
-                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
-                                <Eye className="h-6 w-6" />
-                                <p>LIVE DEMO</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <hr className="hidden xl:block w-full border-4 border-orange-500 -mb-4" />
-                <div className="mb-10 flex items-start justify-center gap-10">
-                    <div className="flex flex-col gap-4 xl:gap--8 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
-                        <h3 className="text-center font-[500] text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] tracking-wide py-1">
-                            <a 
-                                href="https://crocodile-mk.netlify.app/"
-                                rel="noreferrer"
-                                target="_blank"
-                                className="relative group inline-block font-[Quicksand] tracking-widest hover:text-[#0B6E4F] transition-all duration-500"
-                            >
-                                CROCODILE
-                                <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-600 ease-in-out group-hover:w-full"></span>
-                                <span className="absolute -top-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-600 ease-in-out group-hover:w-full"></span>
-                            </a>
-                        </h3>
-                        <div className="group overflow-hidden rounded border-4 xl:hidden">
-                            <a
-                                href="https://crocodile-mk.vercel.app/"
-                                rel="noreferrer"
-                                target="_blank"
-                            >
-                                <img
-                                    src={Crocodile}
-                                    alt=""
-                                    className="transition-all duration-1000 ease-in-out group-hover:scale-110"
-                                />
-                            </a>
-                        </div>
-                        <a
-                            href="https://github.com/maxkatilius/croc"
-                            rel="noreferrer"
-                            target="_blank"
-                            className="xl:hidden"
-                        >
-                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
-                                <GitHub className="h-6 w-6" />
-                                <p>GITHUB REPO</p>
-                            </div>
-                        </a>
-                        <a
-                            href="https://crocodile-mk.vercel.app/"
-                            rel="noreferrer"
-                            target="_blank"
-                            className="xl:hidden"
-                        >
-                            <div className="flex items-center justify-center gap-2 px-2 py-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
-                                <Eye className="h-6 w-6" />
-                                <p>LIVE DEMO</p>
-                            </div>
-                        </a>
-                        <p className="md:pt-2 lg:pt-4">
-                            <span className="font-[500] font-[Quicksand] tracking-widest">CROCODILE </span>  
-                            is the official mock website for Australia's newest and most 
-                            exciting card game. This fully responsive site showcases the 
-                            game's origin story, and simulates a seamless e-commerce experience 
-                            through a modern front-end and a robust back-end architecture.
-                        </p>
-                        <p className="xl:-mb-3">
-                            <span className="font-[Quicksand] font-[500] tracking-widest">CROCODILE</span> is a{" "}
-                            <span className="font-bold text-orange-500">
-                                full-stack project
-                            </span>{" "}
-                            utilising the following technologies:
-                        </p>
-                        <ul className="flex flex-col gap-4">
-                            <li>
-                                <span className="font-bold">Frontend</span>{" "}
-                                <ul>
-                                    <li>
-                                        React and Sass
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <span className="font-bold">Backend</span>{" "}
-                                <ul>
-                                    <li>
-                                        Node.js with Express Server
-                                    </li>
-                                    <li>
-                                        PostgreSQL Database
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <span className="font-bold">Deployment</span>{" "}
-                                <ul>
-                                    <li>
-                                        Frontend - Vercel
-                                    </li>
-                                    <li>
-                                        Server - Render
-                                    </li>
-                                    <li>
-                                        Database - Supabase
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <span className="font-bold">
-                                    State Management
-                                </span>
-                                <ul>
-                                    <li>
-                                        React useContext hook
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <span className="font-bold">
-                                    Mock Product Data
-                                </span>
-                                <ul>
-                                    <li>
-                                        REST API
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="hidden w-[45%] xl:flex flex-col items-center gap-5 m-auto">
-                        <div className="group overflow-hidden rounded border-4 shadow-xl">
-                            <a
-                                href="https://crocodile-mk.vercel.app/"
-                                rel="noreferrer"
-                                target="_blank"
-                            >
-                                <img
-                                    src={Crocodile}
-                                    alt=""
-                                    className="transition-all duration-1000 ease-in-out group-hover:scale-110"
-                                />
-                            </a>
-                        </div>
-                        <a
-                            href="https://github.com/maxkatilius/croc"
-                            rel="noreferrer"
-                            target="_blank"
-                            className="w-72"
-                        >
-                            <div className="flex items-center justify-center gap-2 px-2 py-2 mt-2 bg-orange-500 font-bold text-white rounded shadow-lg hover:bg-orange-400">
-                                <GitHub className="h-6 w-6" />
-                                <p>GITHUB REPO</p>
-                            </div>
-                        </a>
-                        <a
-                            href="https://crocodile-mk.vercel.app/"
                             rel="noreferrer"
                             target="_blank"
                             className="w-72"

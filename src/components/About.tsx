@@ -17,30 +17,34 @@ const About = () => {
             </h2>
             <div className="flex flex-col items-center gap-6 text-[0.95rem] sm:text-[1.05rem] md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.2rem] xl:max-w-[70%] xl:m-auto">
                 <p>
-                    As a self-taught developer, I have cultivated a strong
-                    foundation in problem-solving and a keen interest in
-                    expanding my knowledge.{" "}
-                    <span className="text-orange-500">Working with React,</span>{" "}
-                    I have gained valuable hands-on experience building projects
-                    using this versatile framework.
+                    Previously a structural engineer, problem-solving 
+                    and practical solutions have always been my bread 
+                    and butter.
                 </p>
                 <p>
-                    Prepared to launch my professional career in the tech
-                    sector, I am actively seeking opportunities that will
-                    facilitate my growth and enable me to{" "}
-                    <span className="text-orange-500">
-                        make meaningful contributions
-                    </span>{" "}
-                    to the field of software development.
+                    Over the past few years, I have independently 
+                    upskilled in software development through hands-on projects 
+                    and online courses — a journey driven by curiosity and 
+                    a deep interest in technology.
+                </p>
+                <p>
+                    I’m now pursuing a Master's in Information Technology with
+                     a specialization in Artificial Intelligence, combining my 
+                     self-directed learning with formal study to strengthen 
+                     my technical foundation.
+                </p>
+                <p>
+                    <span className="text-orange-500">My focus lies in frontend 
+                    development,</span> {" "} particularly in building responsive, 
+                    accessible web apps and polished user interfaces with modern 
+                    tools like <span className="text-orange-500">React</span>.
                 </p>
                 <p>
                     Equipped with a solid foundation in various technologies,
-                    I'm enthusiastic about{" "}
-                    <span className="text-orange-500">
-                        embracing novel challenges
-                    </span>{" "}
-                    and staying ahead in the ever-changing landscape of software
-                    development.
+                    I'm excited to apply my skills in real-world projects. I am 
+                    eagerly seeking opportunities where I can grow as a developer 
+                    and make<span className="text-orange-500">{" "}meaningful 
+                    contributions</span> {" "} to innovative digital experiences.
                 </p>
             </div>
             <div className="flex flex-col md:items-center gap-4 sm:text-[1.1rem] md:text-[1.2rem] lg:text-[1.25rem] xl:text-[1.25rem]">
@@ -59,9 +63,9 @@ const About = () => {
                     <ul>
                         <li>- Sass</li>
                         <li>- Node.js</li>
+                        <li>- Python</li>
                         <li>- Git</li>
                         <li>- Figma</li>
-                        <li>- Worpress</li>
                         <li>- Ubuntu</li>
                     </ul>
                 </div>
