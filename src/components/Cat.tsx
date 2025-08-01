@@ -1,4 +1,5 @@
-import CatDev from "../assets/catDev.png"
+// import CatDev from "../assets/catDev.png"
+import CatDev from "../assets/mk-cat.png"
 
 type Props = {
   className: string

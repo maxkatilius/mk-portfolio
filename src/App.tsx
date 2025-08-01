@@ -6,7 +6,7 @@ import Home from './pages/Home'
 function App() {
 
   return (
-    <div className='min-h-svh min-w-svw flex flex-col bg-white font-[Fira_Mono]'>
+    <div className='min-h-dvh min-w-dvw flex flex-col bg-white font-[Fira_Mono]'>
       <Header />
       <Home />
       <Footer />

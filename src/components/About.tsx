@@ -5,12 +5,12 @@ const About = () => {
         <section
             id="about"
             className="
-                sm:relative p-8 sm:px-14 lg:px-18
-                min-h-[calc(100vh-5rem)] flex flex-col justify-between gap-12 sm:gap-14 lg:gap-18 xl:gap-10 2xl:gap-12
+                sm:relative px-8 py-6 sm:px-14 lg:px-18
+                 min-h-[calc(100dvh-5rem)] xl:min-h-[calc(100dvh-6em] flex flex-col justify-between gap-12 sm:gap-14 lg:gap-18 xl:gap-10 2xl:gap-12
                 bg-gray-900 text-gray-200
-                scroll-mt-[5rem]
+                scroll-mt-[5rem] xl:-scroll-mt-[6em]
         ">
-            <h2 className="mb-2 mx-auto lg:mt-2 xl:mt-4">
+            <h2 className="mx-auto lg:mt-2 xl:mt-4">
                 <span className="border-b-8 border-orange-500 pb-2 text-center text-2xl md:text-[2rem] xl:text-[2.4rem] font-semibold tracking-wide">
                     ABOUT
                 </span>
