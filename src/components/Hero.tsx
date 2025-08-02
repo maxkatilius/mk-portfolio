@@ -17,11 +17,11 @@ const Hero = () => {
             ">
                 <h1 className="text-center sm:self-start text-2xl lg:text-4xl xl:text-[2.5rem] 2xl:text-[3rem] text-gray-800">
                     <span className="border-b-8 border-orange-500 pb-2 font-semibold tracking-wide">
-                        Hi, I'm MaxKat 👋
+                        Hi, I'm Max 👋
                     </span>
                 </h1>
                 <div>
-                    <Cat className="sm:hidden w-full h-auto mb-2" />
+                    <Cat className="sm:hidden w-full h-auto mb-6" />
                     <p className="tracking-wide lg:text-xl xl:text-[1.5rem] 2xl:text-[1.7rem] md:leading-7 lg:leading-10 xl:leading-loose">
                         I'm a Melbourne-based{" "}
                         <span className="text-orange-500">software developer</span>{" "}

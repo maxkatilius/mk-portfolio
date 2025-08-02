@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <header className="fixed top-0 h-[5rem] xl:h-[6em] w-full flex items-center bg-white z-100">
+      <header className="fixed top-0 h-[5rem] xl:h-[6rem] w-full flex items-center bg-white z-100">
         <nav className="w-full h-full flex items-center p-6 2xl:p-8 shadow-xl">
           <ul className="w-full flex items-center justify-evenly sm:justify-center sm:gap-28 md:gap-12 2xl:gap-16 font-semibold text-gray-800">
             <a

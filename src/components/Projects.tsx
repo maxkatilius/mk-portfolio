@@ -11,9 +11,9 @@ const Projects = () => {
             id="projects"
             className="
                 flex flex-col gap-10 
-                min-h-[calc(100dvh-5rem)] xl:min-h-[calc(100dvh-6em] px-8 pb-6 pt-6 sm:px-10 md:px-24
+                min-h-[calc(100dvh-5rem)] xl:min-h-[calc(100dvh-6rem] px-8 pb-6 pt-6 sm:px-10 md:px-24 2xl:px-36
                 bg-gradient-to-b from-gray-200 to-gray-100 text-gray-800 
-                scroll-mt-[5rem] xl:-scroll-mt-[6em]
+                scroll-mt-[5rem] xl:scroll-mt-[6rem]
         ">
             <div className="flex flex-col items-center gap-4 xl:gap-16">
                 <div className="flex flex-col gap-7">
@@ -28,23 +28,23 @@ const Projects = () => {
                         engaging solutions.
                     </p>
                 </div>
-                <div className="mb-10 flex items-start justify-center gap-10">
+                <div className="flex items-start justify-center gap-10">
                     <div className="flex flex-col gap-4 xl:gap--8 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
                         <h3 className="text-center font-[500] text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] tracking-wide py-1">
                             <a 
-                                href="https://crocodile-mk.vercel.app"
+                                href="https://crocodile-mk.netlify.app"
                                 rel="noreferrer"
                                 target="_blank"
-                                className="relative group inline-block font-[Quicksand] tracking-widest hover:text-[#0B6E4F] transition-all duration-500"
+                                className="relative group inline-block font-[Quicksand] tracking-widest hover:text-[#0B6E4F] transition-all duration-300"
                             >
                                 CROCODILE
-                                <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-600 ease-in-out group-hover:w-full"></span>
-                                <span className="absolute -top-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-600 ease-in-out group-hover:w-full"></span>
+                                <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-400 ease-in-out group-hover:w-full"></span>
+                                <span className="absolute -top-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-400 ease-in-out group-hover:w-full"></span>
                             </a>
                         </h3>
                         <div className="group overflow-hidden rounded border-4 xl:hidden">
                             <a
-                                href="https://crocodile-mk.vercel.app"
+                                href="https://crocodile-mk.netlify.app"
                                 rel="noreferrer"
                                 target="_blank"
                             >
@@ -67,7 +67,7 @@ const Projects = () => {
                             </div>
                         </a>
                         <a
-                            href="https://crocodile-mk.vercel.app"
+                            href="https://crocodile-mk.netlify.app"
                             rel="noreferrer"
                             target="_blank"
                             className="xl:hidden"
@@ -143,11 +143,12 @@ const Projects = () => {
                                 </li>
                             </ul>   
                         </div>
+                        <hr className="mt-2 lg:mt-4 border-4 border-orange-500 text-orange-500 xl:hidden" />
                     </div>
                     <div className="hidden w-[45%] xl:flex flex-col items-center gap-5 m-auto">
                         <div className="group overflow-hidden rounded border-4 shadow-xl">
                             <a
-                                href="https://crocodile-mk.vercel.app"
+                                href="https://crocodile-mk.netlify.app"
                                 rel="noreferrer"
                                 target="_blank"
                             >
@@ -170,7 +171,7 @@ const Projects = () => {
                             </div>
                         </a>
                         <a
-                            href="https://crocodile-mk.vercel.app"
+                            href="https://crocodile-mk.netlify.app"
                             rel="noreferrer"
                             target="_blank"
                             className="w-72"
@@ -192,10 +193,10 @@ const Projects = () => {
                             target="_blank"
                             className="relative group inline-block font-['M_PLUS_Rounded_1c'] font-[400] tracking-widest transition-colors duration-300"
                         >
-                            <span className="relative z-10 bg-[linear-gradient(to_right,_#257DD0,_#ED5FC2,_#EFAD72,_#22C3A3)] bg-clip-text hover:text-transparent transition-all duration-500 ease-in-out">
+                            <span className="relative z-10 bg-[linear-gradient(to_right,_#257DD0,_#ED5FC2,_#EFAD72,_#22C3A3)] bg-clip-text hover:text-transparent transition-all duration-400 ease-in-out">
                                 palatable
                             </span>
-                            <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[linear-gradient(to_right,_#257DD0,_#ED5FC2,_#EFAD72,_#22C3A3)] transition-all duration-700 ease-in-out group-hover:w-full"></span>
+                            <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[linear-gradient(to_right,_#257DD0,_#ED5FC2,_#EFAD72,_#22C3A3)] transition-all duration-400 ease-in-out group-hover:w-full"></span>
                         </a>
                         </h3>
                         <div className="group overflow-hidden rounded border-4 xl:hidden">
@@ -308,7 +309,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <hr className="hidden xl:block w-full border-4 border-orange-500 -mb-4" />
-                <div className="flex items-start justify-center gap-10">
+                <div className="flex items-start justify-center gap-10 mb-8 2xl:mb-12">
                     <div className="flex flex-col gap-4 xl:w-1/2 xl:gap-8 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
                         <h3 className="text-center font-bold text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] py-1">
                         <a 
@@ -389,7 +390,6 @@ const Projects = () => {
                                 and accurate results.
                             </li>
                         </ul>
-                        <hr className="mt-2 lg:mt-4 border-4 border-orange-500 text-orange-500 xl:hidden" />
                     </div>
                     <div className="hidden w-[45%] xl:flex flex-col items-center gap-5 m-auto">
                         <div className="group overflow-hidden rounded border-4 shadow-xl">

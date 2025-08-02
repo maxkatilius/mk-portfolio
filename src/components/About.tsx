@@ -6,9 +6,9 @@ const About = () => {
             id="about"
             className="
                 sm:relative px-8 py-6 sm:px-14 lg:px-18
-                 min-h-[calc(100dvh-5rem)] xl:min-h-[calc(100dvh-6em] flex flex-col justify-between gap-12 sm:gap-14 lg:gap-18 xl:gap-10 2xl:gap-12
+                 min-h-[calc(100dvh-5rem)] xl:min-h-[calc(100dvh-6rem] flex flex-col justify-between gap-12 sm:gap-14 lg:gap-18 xl:gap-10 2xl:gap-12
                 bg-gray-900 text-gray-200
-                scroll-mt-[5rem] xl:-scroll-mt-[6em]
+                scroll-mt-[5rem] xl:scroll-mt-[6rem]
         ">
             <h2 className="mx-auto lg:mt-2 xl:mt-4">
                 <span className="border-b-8 border-orange-500 pb-2 text-center text-2xl md:text-[2rem] xl:text-[2.4rem] font-semibold tracking-wide">
@@ -17,9 +17,9 @@ const About = () => {
             </h2>
             <div className="flex flex-col items-center gap-6 text-[0.95rem] sm:text-[1.05rem] md:text-[1.1rem] lg:text-[1.2rem] xl:text-[1.2rem] xl:max-w-[70%] xl:m-auto">
                 <p>
-                    Previously a structural engineer, problem-solving 
-                    and practical solutions have always been my bread 
-                    and butter.
+                    As a former structural engineer, I developed a strong
+                    aptitude for problem-solving and developing practical, 
+                    real-world solutions.
                 </p>
                 <p>
                     Over the past few years, I have independently 
@@ -38,7 +38,7 @@ const About = () => {
                     development,</span> {" "} where I enjoy creating responsive, 
                     accessible web applications that deliver a smooth user
                     experience and feature polished, intuitive interfaces built 
-                    with <span className="text-orange-500">React</span>.
+                    with <span className="text-orange-500">React.</span>
                 </p>
                 <p>
                     Equipped with a solid foundation in various technologies,
@@ -57,14 +57,14 @@ const About = () => {
                         <li>- JavaScript</li>
                         <li>- TypeScript</li>
                         <li>- React</li>
-                        <li>- HTML</li>
                         <li>- CSS</li>
+                        <li>- Sass</li>
                         <li>- Tailwind</li>
                     </ul>
                     <ul>
-                        <li>- Sass</li>
-                        <li>- Node.js</li>
                         <li>- Python</li>
+                        <li>- Node.js</li>
+                        <li>- SQL</li>
                         <li>- Git</li>
                         <li>- Figma</li>
                         <li>- Ubuntu</li>
