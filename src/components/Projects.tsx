@@ -30,7 +30,7 @@ const Projects = () => {
                 </div>
                 <div className="flex items-start justify-center gap-10">
                     <div className="flex flex-col gap-4 xl:gap--8 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
-                        <div className="flex gap-3 items-center justify-center">
+                        <div className="flex flex-col sm:flex-row sm:gap-3 items-center justify-center">
                             <h3 className="text-center font-[500] text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] tracking-wide py-1">
                                 <a 
                                     href="https://crocodile-mk.netlify.app"
@@ -43,7 +43,8 @@ const Projects = () => {
                                     <span className="absolute -top-1 left-0 h-1 w-0 bg-[#0B6E4F] transition-all duration-400 ease-in-out group-hover:w-full"></span>
                                 </a>
                             </h3>
-                            <p>- Mock Ecommerce Store</p>
+                            <p className="hidden sm:block">- Mock Ecommerce Store</p>
+                            <p className="sm:hidden">Mock Ecommerce Store</p>
                         </div>
                         <div className="group overflow-hidden rounded border-4 xl:hidden">
                             <a
@@ -189,7 +190,7 @@ const Projects = () => {
                 <hr className="hidden xl:block w-full border-4 border-orange-500 -mb-4" />
                 <div className="flex items-start justify-center gap-10">
                     <div className="flex flex-col gap-4 xl:gap-8 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
-                        <div className="flex gap-3 items-center justify-center">
+                        <div className="flex flex-col sm:flex-row sm:gap-3 items-center justify-center">
                             <h3 className="text-center font-bold text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem]">
                                 <a 
                                     href="https://palatable.netlify.app/"
@@ -203,7 +204,8 @@ const Projects = () => {
                                     <span className="absolute -bottom-1 left-0 h-1 w-0 bg-[linear-gradient(to_right,_#257DD0,_#ED5FC2,_#EFAD72,_#22C3A3)] transition-all duration-400 ease-in-out group-hover:w-full"></span>
                                 </a>
                             </h3>
-                            <p>- Interactive Colour Palette Generator</p>
+                            <p className="hidden sm:block">- Interactive Colour Palette Generator</p>
+                            <p className="sm:hidden">Interactive Colour Palette Generator</p>
                         </div>
                         <div className="group overflow-hidden rounded border-4 xl:hidden">
                             <a
@@ -317,8 +319,7 @@ const Projects = () => {
                 <hr className="hidden xl:block w-full border-4 border-orange-500 -mb-4" />
                 <div className="flex items-start justify-center gap-10 mb-8 2xl:mb-12">
                     <div className="flex flex-col gap-4 xl:w-1/2 xl:gap-8 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
-                        <div className="flex gap-3 items-center justify-center">
-
+                        <div className="flex flex-col sm:flex-row sm:gap-3 items-center justify-center">
                             <h3 className="text-center font-bold text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] py-1">
                                 <a 
                                     href="https://clockwise-mk.netlify.app/"
@@ -332,7 +333,8 @@ const Projects = () => {
                                     <span className="absolute -bottom-1 left-0 h-1 w-0 bg-linear-to-r from-sky-200 to-blue-400 transition-all duration-600 ease-in-out group-hover:w-full"></span>
                                 </a>
                             </h3>
-                            <p>- Instantaneous Timezone Converter</p>
+                            <p className="hidden sm:block">- Instantaneous Timezone Converter</p>
+                            <p className="sm:hidden">Instantaneous Timezone Converter</p>
                         </div>
                         <div className="group overflow-hidden rounded border-4 xl:hidden">
                             <a
