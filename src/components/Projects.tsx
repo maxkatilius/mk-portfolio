@@ -30,7 +30,7 @@ const Projects = () => {
                 </div>
                 <div className="flex items-start justify-center gap-10">
                     <div className="flex flex-col gap-4 xl:gap--8 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
-                        <div className="flex flex-col sm:flex-row sm:gap-3 items-center justify-center">
+                        <div className="flex flex-col sm:flex-row sm:gap-3 items-center justify-center text-center">
                             <h3 className="text-center font-[500] text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] tracking-wide py-1">
                                 <a 
                                     href="https://crocodile-mk.netlify.app"
@@ -190,7 +190,7 @@ const Projects = () => {
                 <hr className="hidden xl:block w-full border-4 border-orange-500 -mb-4" />
                 <div className="flex items-start justify-center gap-10">
                     <div className="flex flex-col gap-4 xl:gap-8 xl:w-1/2 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
-                        <div className="flex flex-col sm:flex-row sm:gap-3 items-center justify-center">
+                        <div className="flex flex-col sm:flex-row sm:gap-3 items-center justify-center text-center">
                             <h3 className="text-center font-bold text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem]">
                                 <a 
                                     href="https://palatable.netlify.app/"
@@ -319,7 +319,7 @@ const Projects = () => {
                 <hr className="hidden xl:block w-full border-4 border-orange-500 -mb-4" />
                 <div className="flex items-start justify-center gap-10 mb-8 2xl:mb-12">
                     <div className="flex flex-col gap-4 xl:w-1/2 xl:gap-8 md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.35rem]">
-                        <div className="flex flex-col sm:flex-row sm:gap-3 items-center justify-center">
+                        <div className="flex flex-col sm:flex-row sm:gap-3 items-center justify-center text-center">
                             <h3 className="text-center font-bold text-[1.5rem] md:text-[1.8rem] lg:text-[1.9rem] xl:text-[2rem] py-1">
                                 <a 
                                     href="https://clockwise-mk.netlify.app/"
